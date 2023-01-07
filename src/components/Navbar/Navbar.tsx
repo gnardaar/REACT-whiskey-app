@@ -93,10 +93,10 @@ export const Navbar = () => {
               <li>
                 <Button>
                   <Link
-                    to="/carinventory"
+                    to="/whiskeyinventory"
                     className={`${classes.navbarItem} ${classes.psides}`}
                   >
-                    My Cars
+                    My Booze
                   </Link>
                 </Button>
               </li>

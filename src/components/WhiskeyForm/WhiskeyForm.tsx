@@ -61,7 +61,7 @@ export const WhiskeyForm = (props:BoozeFormProps) => {
                 </div>
                 <div>
                     <label htmlFor="percent">Condition</label>
-                    <Input {...register('percent')} name="percent" placeholder="car's percent"/>
+                    <Input {...register('percent')} name="percent" placeholder="percent"/>
                 </div>
                 <div>
                     <label htmlFor="color">Year</label>

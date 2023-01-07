@@ -2,7 +2,7 @@ let token = 'b8ff7c7245ca806d097fe6b10f06ab364c685f7e644e4a94'
 
 export const server_calls = {
     get: async () => {
-        const response = await fetch(`  https://shine-sharp-eyebrow.glitch.me/api/cars`,{
+        const response = await fetch(`  https://shine-sharp-eyebrow.glitch.me/api/whiskey`,{
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -18,7 +18,7 @@ export const server_calls = {
     },
 
     create: async(data: any = {}) => {
-        const response = await fetch(`  https://shine-sharp-eyebrow.glitch.me/api/cars`,{
+        const response = await fetch(`  https://shine-sharp-eyebrow.glitch.me/api/whiskey`,{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -34,7 +34,7 @@ export const server_calls = {
         return await response.json()
     },
     update: async (id:string, data:any = {}) => {
-        const response = await fetch(`  https://shine-sharp-eyebrow.glitch.me/api/cars/${id}`, {
+        const response = await fetch(`  https://shine-sharp-eyebrow.glitch.me/api/whiskey/${id}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ export const server_calls = {
         });
     },
     delete: async(id:string) => {
-        const response = await fetch(`  https://shine-sharp-eyebrow.glitch.me/api/cars/${id}`,{
+        const response = await fetch(`  https://shine-sharp-eyebrow.glitch.me/api/whiskey/${id}`,{
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
